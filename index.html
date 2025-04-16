@@ -204,12 +204,12 @@
         }
 
         .coin-icon-custom {
-            width: 32px; /* Ancho de la imagen */
-            height: 32px; /* Alto de la imagen */
-            background-image: url('moneda2.png'); /* Ruta de tu imagen */
-            background-size: contain; /* Ajusta la imagen para que se contenga dentro del div */
-            background-repeat: no-repeat; /* Evita que la imagen se repita */
-            display: inline-block; /* Asegura que el div se comporte como un bloque en línea */
+            width: 32px; 
+            height: 32px; 
+            background-image: url('moneda2.png'); 
+            background-size: contain; 
+            background-repeat: no-repeat;
+            display: inline-block; 
         }
 
 
@@ -261,8 +261,8 @@
             border: none;
             background-color: #e5e5e5;
             cursor: pointer;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Pequeña sombra para resaltarlo */
-            border-radius: 5px; /* Redondear los bordes de los botones */
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+            border-radius: 5px; 
             width: 100%;
         }
  
@@ -348,7 +348,7 @@
         }
 
         
-        /* Estilos actualizados para el popup de confirmación */
+        
         #confirmationPopup .popup-content {
             text-align: center;
             padding: 20px;
@@ -366,7 +366,7 @@
             margin-bottom: 20px;
         }
 
-        /* Estilos para la animación de carga */
+        
        .loader {
             border: 5px solid #f3f3f3;
             border-top: 5px solid #3498db;
@@ -386,7 +386,7 @@
             display: none;
         }
 
-         /* Nuevos estilos para el campo de nombre de usuario */
+         
         .input-container {
             margin-bottom: 20px;
         }
@@ -414,16 +414,16 @@
         }
 
         .inline-coin-icon {
-            width: 21px; /* Aumenta el tamaño de la moneda */
+            width: 21px; 
             height: 21px;
-            vertical-align: -4px; /* Alinea la imagen verticalmente con el número */
-            margin-right: 2px; /* Añade un pequeño margen a la derecha para que no quede pegado al número */
+            vertical-align: -4px; 
+            margin-right: 2px; 
         }
 
         .icon-img {
-            width: 24px;  /* Tamaño de la imagen */
-            height: 24px; /* Alto de la imagen */
-            vertical-align: middle; /* Alineación vertical */
+            width: 24px; 
+            height: 24px; 
+            vertical-align: middle; 
         }
 
        #total {
@@ -435,24 +435,24 @@
             text-align:right;
         }
         img.icono-imagen {
-            margin-right: 8px; /* Ajusta el espacio entre la imagen y el texto */
-            width: 20px; /* Cambia el tamaño según sea necesario */
+            margin-right: 8px; 
+            width: 20px; 
             height: auto;
             vertical-align: middle;
         }
 
         .cabeza {
-            display: flex; /* Activa el modelo flexbox */
-            align-items: center; /* Centra el contenido verticalmente */
-            justify-content: center; /* Centra el contenido horizontalmente */
-            position: relative; /* Para posicionar el texto sobre la imagen */
-            background-image: url('cabeza.png'); /* Cambia a la ruta de tu imagen */
-            background-size: cover; /* Hace que la imagen cubra todo el contenedor */
-            background-position: center; /* Centra la imagen */
-            padding: 12px; /* Espacio interno alrededor del texto */
-            color: #00916d; /* Color del texto */
-            font-size: 15px; /* Tamaño de fuente */
-            height: 5px; /* Establece la altura del contenedor */
+            display: flex; 
+            align-items: center;
+            justify-content: center; 
+            position: relative; 
+            background-image: url('cabeza.png'); 
+            background-size: cover; 
+            background-position: center; 
+            padding: 12px; 
+            color: #00916d; 
+            font-size: 15px; 
+            height: 5px; 
             font-weight: bold;
         }
 
@@ -775,7 +775,7 @@
             setTimeout(() => {
                 document.getElementById('loader').classList.add('hidden');
                 document.getElementById('successIcon').classList.remove('hidden');
-                document.querySelector('#confirmationPopup .confirmation-message').textContent = '¡Successful recharge!';
+                document.querySelector('#confirmationPopup .confirmation-message').textContent = 'Successful recharge!';
                 document.getElementById('confirmButton').classList.remove('hidden');
                 
                 // Mostrar detalles de la recarga
